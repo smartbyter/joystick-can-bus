@@ -1,5 +1,5 @@
 // Загружаем скомпилированную библиотеку
-const lib = Deno.dlopen("/data/projects/deno/joystick/libjoystick.so", {
+const lib = Deno.dlopen("~/projects/joystick-can-bus/libjoystick.so", {
     create_uinput_device: { parameters: [], result: "i32" },
     send_axis: { parameters: ["i32", "i32", "i32"], result: "void" },
     send_button: { parameters: ["i32", "i32", "i32"], result: "void" },
