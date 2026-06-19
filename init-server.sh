@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USER_NAME=pi
-DENO_PATH="/home/pi/joystick-can-bus"
+PROJECT_PATH="/home/pi/joystick-can-bus"
 
 sudo cat > /etc/systemd/system/deno-server.service << EOF
 [Unit]
@@ -12,8 +12,8 @@ Wants=network-online.target
 [Service]
 Type=simple
 User=${USER_NAME}
-WorkingDirectory=${DENO_PATH}
-ExecStart=${DENO_PATH}/run-server.sh
+WorkingDirectory=${PROJECT_PATH}
+ExecStart=${PROJECT_PATH}/run-server.sh
 Restart=on-failure
 RestartSec=10
 
