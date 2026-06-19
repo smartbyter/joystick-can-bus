@@ -1,7 +1,7 @@
 #!/bin/bash
 
-USER_NAME=$USER
-DENO_PATH="/home/$USER/deno"
+USER_NAME=pi
+DENO_PATH="/home/pi/joystick-can-bus"
 
 sudo cat > /etc/systemd/system/deno-server.service << EOF
 [Unit]
