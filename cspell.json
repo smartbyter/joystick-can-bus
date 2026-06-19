@@ -1,0 +1,26 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "беззнакового",
+        "Парсим",
+        "парсинга",
+        "AABBCCDD",
+        "ABSBIT",
+        "absmax",
+        "absmin",
+        "canb",
+        "canbus",
+        "candump",
+        "EVBIT",
+        "jstest",
+        "libjoystick",
+        "uidev",
+        "Uinput",
+        "usermod"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
